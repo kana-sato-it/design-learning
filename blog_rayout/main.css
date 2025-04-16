@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+body {
+  background-color: #eee;
+}
+
+h1 {
+  font-size: 23px;
+  font-family: "Arial Black";
+  letter-spacing: 2px;
+}
+
+.box {
+  background-color: #fff;
+  box-shadow: 0 5px 5px #999;
+  height: 200px;
+  margin: 20px 0;
+  overflow: hidden;
+  padding: 15px;
+  width: 500px;
+}
+
+.box a:link,
+.box a:visited {
+  color: #00c;
+}
+
+.box a:hover {
+  color: #33f;
+}
+
+.box > h2 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.box > h2 > .date {
+  color: #666;
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.box > .box_img {
+  float: left;
+  margin-right: 10px;
+  width: 150px;
+}
+
+.box > .box_sentence > p {
+  color: #444;
+  font-size: 14px;
+}
