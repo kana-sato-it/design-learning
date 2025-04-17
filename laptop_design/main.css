@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+.pc {
+  height: 325px;
+  position: relative;
+  width: 550px;
+}
+
+.pc_head {
+  background-color: #000;
+  border-radius: 10px 10px 0 0;
+  height: 300px;
+  left: 50px;
+  position: absolute;
+  width: 450px;
+}
+
+.display_outer {
+  position: relative;
+}
+
+.display_inner {
+  background: url("files/logo.png") no-repeat center;
+  background-color: #ddd;
+  height: 250px;
+  left: 20px;
+  position: absolute;
+  top: 25px;
+  width: 410px;
+}
+
+.camera {
+  background-color: #333;
+  border-radius: 8px;
+  height: 8px;
+  left: 221px;
+  position: absolute;
+  top: 8px;
+  width: 8px;
+}
+
+.pc_body {
+  background-color: #ccc;
+  border-radius: 0 0 50px 50px;
+  height: 25px;
+  position: absolute;
+  top: 300px;
+  width: 550px;
+}
+
+.body_inner {
+  position: relative;
+}
+
+.hollow {
+  background-color: #999;
+  border-radius: 0 0 20px 20px;
+  height: 10px;
+  left: 225px;
+  position: absolute;
+  width: 100px;
+}
