@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+h1 {
+  font-size: 20px;
+  line-height: 30px;
+  margin: 5px;
+  text-align: center;
+}
+
+.box {
+  border: 1px solid #000;
+  height: 478px;
+  width: 318px;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu > li {
+  background-color: #9b9;
+  border-bottom: 1px solid #393;
+  font-size: 13px;
+  line-height: 30px;
+  position: relative;
+}
+
+.menu > li:first-child {
+  border-top: 1px solid #393;
+}
+
+.menu > li > label {
+  cursor: pointer;
+  height: 30px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.submenu {
+  display: none;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.menu > li > input:checked ~ .submenu {
+  display: block;
+}
+
+.submenu > li {
+  background-color: #efe;
+  border-top: 1px solid #696;
+  cursor: pointer;
+}
+
+.submenu > li > p {
+  margin: 0;
+  padding-left: 25px;
+}
