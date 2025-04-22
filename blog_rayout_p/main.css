@@ -1,0 +1,25 @@
+.blog-post {
+  background-color: antiquewhite;
+  width: 600px;
+  height: 300px;
+  box-shadow: 0 5px 5px #999;
+}
+
+.content > p {
+  font: optional;
+  font-size: 20px;
+}
+
+.blog-post > h2 {
+  font-size: 30px;
+}
+
+.blog-post > h2:hover {
+  color: blue;
+}
+
+.content {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
